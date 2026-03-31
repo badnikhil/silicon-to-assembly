@@ -1,4 +1,8 @@
-This documentation covers all the topics,Terminologies and Concepts related to Assembly Language independent of its targetted architecture , Variant or ISA. Every Question occuring while you read the docs , will be covetrted surely in one of the further units where the explaination will be understandable.
+This documentation covers all the topics, terminologies, and concepts related to assembly language, independent of its targeted architecture, variant, or ISA. Every question occurring while you read the docs will be covered in one of the units where the explanation will be understandable.
 
+Every unit has an `extras.md` for topics that are too unrelated to assembly and are just for learner interest.
 
-── unit-1/
+## Unit 1
+- `unit-1/1.Foundation.md` - CPU internals and architectural basics
+- `unit-1/2.architecture_basics.md` - Simplified explanation for architectural terms like x86, RISC, ISA
+

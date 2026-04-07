@@ -108,34 +108,6 @@ The decoding happens in stages:
 This is called **hierarchical decoding**.
 
 ---
-Registers are small, fast storage locations inside the CPU that hold data temporarily during program 
-execution. Unlike main memory (RAM), which is very very slow , registers provide immediate access to
- data for computations. In assembly language programming, registers are fundamental because most operations 
-(arithmetic, logic, memory access) involve them. Higher level Programming Languages Abstract them away by 
-managing them internally and we don't have to worry about them.
-
-Registers are part of the CPU's architecture and are defined by the Instruction Set Architecture (ISA). 
-Different ISAs have different register sets. We'll focus on x86 (CISC) and ARM (RISC) architectures, as they 
-represent the two major paradigms in modern computing.
-
-
-Back in the 50s programming was not creating variables and calling functions. It was carefully handling registers and minimizing use of Secondary memory(RAM  , which we don't care about today because of extremely fast evolution of modern computing hardware).Also, assembly was not created - assemblers were. However, a common misconception is that Grace Hopper was the creator of assembly, which is correctly explained in Extras–3. For now, let’s get back to the topic.
-### Why Registers Are Faster: Cache and Cycle Analysis
-
-Registers are dramatically faster than memory access, even with CPU cache. Let's use the (A + B) × (A - B) example to show the performance difference:
-
-**Memory-based approach (cache hits assumed):**
-```asm
-; A and B are in memory at [mem_A] and [mem_B]
-add rax, [mem_A]     ; Load A, add to RAX: 4-10 cycles
-add rax, [mem_B]     ; Load B, add to RAX: 4-10 cycles  
-sub rax, [mem_B]     ; Load B again, subtract: 4-10 cycles
-imul rax, [mem_A]    ; Load A again, multiply: 4-10 cycles
-imul rax, [mem_B]    ; Load B again, multiply: 4-10 cycles
-; Total: 20-50 cycles for 5 memory accesses!
-```
-
-**Register-based approach:**
 ### 7. Not Always Fixed Like This
 
 Important note:

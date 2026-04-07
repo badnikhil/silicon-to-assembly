@@ -13,8 +13,6 @@ This roadmap outlines the journey from **CPU internals** (the "Silicon") to low-
 - **1.Foundation.md**: CPU internals and architectural basics.
 - **2.architecture_basics.md**: Simplified explanation for architectural terms like x86, RISC, ISA
 - **3.CPU_registers.md**: Discussion around registers and register sets for x86 and ARM.
-- **Extras-1.md**: Internal structure of Opcodes (Field breakdown).
-- **Extras-2.md**: Control unit basics (How the CPU knows what to do next).
 
 ---
 

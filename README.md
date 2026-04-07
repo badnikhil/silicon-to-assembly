@@ -5,5 +5,5 @@ In this documentation, I have not discussed anything specific to a single archit
 ## Unit 1
 - `unit-1/1.Foundation.md` - CPU internals and architectural basics
 - `unit-1/2.architecture_basics.md` - Simplified explanation for architectural terms like x86, RISC, ISA
-- `unit-1/3.CPU_registers.md` - Complete explanation of registers and register sets for x86 and ARM
+- `unit-1/3.CPU_registers.md` - Discussion around registers and register sets for x86 and ARM
 

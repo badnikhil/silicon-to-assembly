@@ -2,8 +2,8 @@ This documentation covers all the topics, terminologies, and concepts related to
 
 Every unit has an `extras.md` for topics that are too unrelated to assembly and are just for learner interest.
 In this documentation, I have not discussed anything specific to a single architecture. Every detail is written from a completely architecture-independent point of view and presented as a standard perspective. In addition, all examples, including assembly, use Intel syntax.
-## Unit 1
-- `unit-1/1.Foundation.md` - CPU internals and architectural basics
-- `unit-1/2.architecture_basics.md` - Simplified explanation for architectural terms like x86, RISC, ISA
-- `unit-1/3.CPU_registers.md` - Discussion around registers and register sets for x86 and ARM
+
+
+---
+For the complete project roadmap and upcoming units, see [**Documentation Unit Structures**](unit_structures.md).
 

@@ -14,7 +14,6 @@ This roadmap outlines the journey from **CPU internals** (the "Silicon") to low-
 - **2.architecture_basics.md**: Simplified explanation for architectural terms like x86, RISC, ISA
 - **3.CPU_registers.md**: Discussion around registers and register sets for x86 and ARM.
 - **4.Assembly_vs_assemblers.md**: The "Created" language fallacy and the mechanics of the assembler.
-- **Extras-3.md**: The Natural Unit (Word) vs. The Addressable Unit (Byte).
 
 ---
 
